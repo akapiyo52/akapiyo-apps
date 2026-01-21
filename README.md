@@ -1,2 +1,48 @@
-# akapiyo-apps
-Microsoft Store公開予定　　Scheduled to be released on Microsoft Store
+# OIP画像変換ツール（EXE版）
+
+Web から保存した画像が OIP.webp のような名前や WebP 形式になり、PowerPoint や SNS で扱いにくい場合があります。  
+このツールは、そうした画像を PNG / JPG に変換するためのシンプルなデスクトップアプリです。  
+EXE 形式で提供しているため、Python のインストールは不要です。
+
+## 特徴
+
+- WebP / OIP 画像を PNG / JPG に変換
+- 保存先フォルダを自由に選択可能
+- PNG と JPG の両方を自動生成
+- 軽量で動作が速い
+- インストール不要（単体 EXE）
+
+## 使い方
+
+1. `oip_converter.exe` を起動  
+2. 「画像を選択」ボタンを押す  
+3. WebP / OIP 画像を選択  
+4. 保存先フォルダを指定  
+5. PNG と JPG が自動で生成されます
+
+## 対応形式
+
+- 入力: WebP / PNG / JPG / JPEG / BMP  
+- 出力: PNG / JPG
+
+## 動作環境
+
+- Windows 10 / 11  
+- インストール不要  
+- 管理者権限不要
+
+## 注意事項
+
+- 初回起動時に SmartScreen が表示される場合があります。  
+  これは自作アプリに署名が付いていないためで、異常ではありません。
+
+## 今後の予定
+
+- 複数画像の一括変換  
+- ドラッグ＆ドロップ対応  
+- アプリアイコンの追加  
+- Microsoft Store での公開
+
+## ライセンス
+
+MIT License
